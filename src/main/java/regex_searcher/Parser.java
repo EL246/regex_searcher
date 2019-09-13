@@ -74,13 +74,13 @@ class Parser {
                 // check for 0+ occurrences of following char
                 checkForZeroInstances(queue, i, j, pattern);
                 //TODO: is it necessary to check for one instance?
-                checkForOneInstance(queue, i, j, pattern);
+                //checkForOneInstance(queue, i, j, pattern);
                 checkForMultipleInstances(queue, i, j, pattern);
 
                 break;
             case '+':
                 // check for 1+ occurrences of following char
-                checkForOneInstance(queue, i, j, pattern);
+                //checkForOneInstance(queue, i, j, pattern);
                 checkForMultipleInstances(queue, i, j, pattern);
                 break;
         }

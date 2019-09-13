@@ -48,5 +48,7 @@ public class Main {
         assert p15.parse();
         Parser p16 = new Parser("abc+def?ghij*k*.","abcdefghijklmn");
         assert p16.parse();
+        Parser p17 = new Parser("","");
+        assert p17.parse();
     }
 }
